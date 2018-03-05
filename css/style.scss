@@ -5,6 +5,11 @@ $color-primary:teal;
 $font-primary:'Montserrat',
 sans-serif;
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: $font-primary;
     color: lighten($color-black, 20%);
@@ -93,5 +98,21 @@ h6 {
     }
     .box3 {
         order: 1;
+    }
+}
+
+#section-banner {
+    .banner {
+        display: flex;
+        height: 100vh;
+        background: lighten(black, 15%);
+        a {
+            margin: auto;
+            button {
+                background: $color-primary;
+                border: $color-primary;
+                color: white;
+            }
+        }
     }
 }

@@ -1,3 +1,7 @@
+html {
+  margin: 0;
+  padding: 0; }
+
 body {
   font-family: "Montserrat", sans-serif;
   color: #333333; }
@@ -58,5 +62,16 @@ h6 {
   order: 3; }
 #three .box3 {
   order: 1; }
+
+#section-banner .banner {
+  display: flex;
+  height: 100vh;
+  background: #262626; }
+  #section-banner .banner a {
+    margin: auto; }
+    #section-banner .banner a button {
+      background: teal;
+      border: teal;
+      color: white; }
 
 /*# sourceMappingURL=style.css.map */
